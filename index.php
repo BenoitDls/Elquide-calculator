@@ -33,7 +33,7 @@
         </div>
         <div class="col-lg-4 col-md-4">
             <div class="form-group">
-                <label>Total liquide désiré</label>
+                <label>Base</label>
                 <div class="input-group mb-2">
                     <div class="input-group-prepend">
                         <div class="input-group-text">ml</div>
@@ -44,7 +44,7 @@
         </div>
         <div class="col-lg-4 col-md-4">
             <div class="form-group">
-                <label>Résulat</label>
+                <label>Arôme a rajouter</label>
                 <div class="input-group mb-2">
                     <div class="input-group-prepend">
                         <div class="input-group-text">ml</div>
