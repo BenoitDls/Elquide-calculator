@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    .container
+      h1#pageTitle.text-center.mt-5 Eliquide Calculator!
+      h2.mt-5 Calculer la quantité d'arôme nécessaire a votre base
+      .row.mt-3
+        .col-lg-4.col-md-4
+          .form-group
+            label Dosage arôme
+            .input-group.mb-2
+              .input-group-prepend
+                .input-group-text %
+              input#arome.form-control(type='number', placeholder='15')
+            small#emailHelp.form-text.text-muted dosage en %
+        .col-lg-4.col-md-4
+          .form-group
+            label Base
+            .input-group.mb-2
+              .input-group-prepend
+                .input-group-text ml
+              input#base.form-control(type='number', placeholder='200')
+        .col-lg-4.col-md-4
+          .form-group
+            label Arôme a rajouter
+            .input-group.mb-2
+              .input-group-prepend
+                .input-group-text ml
+              input#result.form-control(type='text', placeholder='30', disabled='')
+      

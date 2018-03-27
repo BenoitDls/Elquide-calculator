@@ -1,1 +1,0 @@
-# Elquide-calculator
